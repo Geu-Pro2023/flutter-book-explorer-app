@@ -1,16 +1,74 @@
-# book_explorer
+# **Book Explorer App**
 
-A new Flutter project.
+## **Project Overview**
+The Book Explorer App is a Flutter-based mobile application that allows users to search for books, view detailed information about each book, and explore various settings such as dark mode and font size adjustments. The app integrates with the **OpenLibrary API** to fetch and display books based on search queries.
 
-## Getting Started
+## **API Chosen and Its Purpose**
+- **API:** [OpenLibrary API](https://openlibrary.org/developers)
+- **Purpose:** The OpenLibrary API provides access to a vast collection of books and their details. It is used to retrieve book information such as title, author, cover image, and external links to the book's page on the OpenLibrary website. This data is fetched based on search queries entered by the user.
 
-This project is a starting point for a Flutter application.
+## **Screens Created and Their Functionalities**
 
-A few resources to get you started if this is your first Flutter project:
+### **1. Home Screen**
+- **Functionality:** Displays a search bar where users can input queries to search for books. It shows a list of book results fetched from the API based on the search query.
+- **Widgets Used:** `TextField`, `ListView`, `ListTile`.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### **2. Search Screen**
+- **Functionality:** Allows users to enter a query, search for books, and view the results. Displays a list of books based on the query.
+- **Widgets Used:** `TextField`, `ListView`, `ListTile`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### **3. Book Screen**
+- **Functionality:** Displays detailed information about a specific book, such as its title, author, cover image, and a link to the OpenLibrary website.
+- **Widgets Used:** `Text`, `Image.network`, `Column`, `FlatButton/ElevatedButton`.
+
+### **4. Setting Screen**
+- **Functionality:** Allows users to adjust settings such as dark mode, font size, and language. Changes are reflected across the app.
+- **Widgets Used:** `SwitchListTile`, `ListTile`, `Slider`.
+
+## **Screenshots**
+### **Portrait Mode Screenshots**
+1. **Home Screen in Portrait Mode**
+   ![Home Screen Portrait](path/to/portrait-home-screen.png)
+
+2. **Search Screen in Portrait Mode**
+   ![Search Screen Portrait](path/to/portrait-search-screen.png)
+
+### **Landscape Mode Screenshots**
+1. **Home Screen in Landscape Mode**
+   ![Home Screen Landscape](path/to/landscape-home-screen.png)
+
+2. **Search Screen in Landscape Mode**
+   ![Search Screen Landscape](path/to/landscape-search-screen.png)
+
+> Note: Replace `path/to/...` with the actual file paths or URLs for your screenshots.
+
+## **Challenges Faced During Development and How They Were Resolved**
+
+### **1. Handling API Responses and Parsing JSON**
+- **Challenge:** Parsing the JSON response from the OpenLibrary API to extract relevant book information.
+- **Resolution:** Created a `Book` model class to map JSON data into Dart objects. The `BookProvider` class was used to fetch data from the API and return a list of `Book` objects.
+
+### **2. Managing App State (Dark Mode & Font Size)**
+- **Challenge:** Managing app state for features like dark mode and font size across multiple screens.
+- **Resolution:** Used the `Provider` package for state management. Created a `ThemeProvider` class for dark mode and a state management solution for font size.
+
+### **3. UI Layout and Responsiveness**
+- **Challenge:** Ensuring the UI adapts well to different screen sizes and orientations.
+- **Resolution:** Used Flutter’s layout widgets like `Expanded`, `Flexible`, and `ListView` for scrollable content. Ensured the layout works in both portrait and landscape modes.
+
+### **4. Handling User Input and Search Functionality**
+- **Challenge:** Handling empty search queries and managing API failures.
+- **Resolution:** Implemented error handling and validation to manage empty search queries or failed API requests, displaying appropriate error messages to the user.
+
+### **5. Language Translation and Multi-Language Support**
+- **Challenge:** Implementing language selection functionality for multi-language support.
+- **Resolution:** Created a helper method to handle language translations and allowed users to select a language from the settings screen.
+
+## **Technologies Used**
+- **Flutter:** Framework for building cross-platform mobile applications.
+- **OpenLibrary API:** API for fetching book data.
+- **Provider:** Package for state management (e.g., dark mode toggle, font size adjustment).
+- **Material Design:** For building the app's user interface with standard components like `ListTile`, `BottomNavigationBar`, and `FloatingActionButton`.
+
+## **Installation and Setup**
+1. Clone the repository:
