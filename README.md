@@ -1,11 +1,11 @@
 # **Book Explorer App**
 
 ## **Project Overview**
-The Book Explorer App is a Flutter-based mobile application that allows users to search for books, view detailed information about each book, and explore various settings such as dark mode and font size adjustments. The app integrates with the **OpenLibrary API** to fetch and display books based on search queries.
+The Book Explorer App is a Flutter-based mobile application that allows users to search for books, view detailed information about each book, and explore settings such as dark mode and font size adjustments. The app integrates with the **OpenLibrary API** to fetch and display books based on search queries.
 
 ## **API Chosen and Its Purpose**
 - **API:** [OpenLibrary API](https://openlibrary.org/developers)
-- **Purpose:** The OpenLibrary API provides access to a vast collection of books and their details. It is used to retrieve book information such as title, author, cover image, and external links to the book's page on the OpenLibrary website. This data is fetched based on search queries entered by the user.
+- **Purpose:** The OpenLibrary API provides access to many books and their details. It retrieves book information such as title, author, cover image, and external links to the book's page on the OpenLibrary website. This data is fetched based on search queries entered by the user.
 
 ## **Screens Created and Their Functionalities**
 
@@ -19,7 +19,7 @@ The Book Explorer App is a Flutter-based mobile application that allows users to
 
 ### **3. Book Screen**
 - **Functionality:** Displays detailed information about a specific book, such as its title, author, cover image, and a link to the OpenLibrary website.
-- **Widgets Used:** `Text`, `Image.network`, `Column`, `FlatButton/ElevatedButton`.
+- **Widgets Used:** `Text`, `Image. network`, `Column`, `FlatButton/ElevatedButton`.
 
 ### **4. Setting Screen**
 - **Functionality:** Allows users to adjust settings such as dark mode, font size, and language. Changes are reflected across the app.
@@ -71,4 +71,36 @@ The Book Explorer App is a Flutter-based mobile application that allows users to
 - **Material Design:** For building the app's user interface with standard components like `ListTile`, `BottomNavigationBar`, and `FloatingActionButton`.
 
 ## **Installation and Setup**
+
 1. Clone the repository:
+
+```
+ git clone https://github.com/yourusername/book-explorer-app.git
+```
+
+2. Navigate to the project directory:
+
+```
+ cd book-explorer-app
+```
+
+3. Install dependencies:
+
+```
+flutter pub get
+```
+
+4. Run the application:
+
+```
+flutter run
+```
+
+## **Contributing**
+I want to express my gratitude to the following for their invaluable contributions:
+- The Dart and Flutter teams for providing robust tools and frameworks.
+- My facilitator for teaching me flutter
+
+## **License**
+This project is licensed under the MIT License.
+   
