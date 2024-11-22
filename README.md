@@ -27,7 +27,7 @@ The Book Explorer App is a Flutter-based mobile application that allows users to
 
 ## **Screenshots**
 ### **Portrait Mode Screenshot**
-   ![Home Screen Portrait](https://drive.google.com/file/d/1sxnScDHSKF5cf0gzlDPkI86OOtVs27iY/view?usp=drive_link)
+   ![Portrait mode](https://github.com/Geu-Pro2023/Temperature_Conversion_App/blob/bdafb0a8372fda1821c9823d8412403f94aa07a4/temperature_app/Screenshot%202024-09-27%20020730.png)
 
 ### **Landscape Mode Screenshot**
    ![Home Screen Landscape](https://drive.google.com/file/d/1PERCQSMuOl3WR_3WynGBiGL6N9xRNhHa/view?usp=sharing)
