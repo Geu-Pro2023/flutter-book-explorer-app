@@ -10,7 +10,7 @@ The Book Explorer App is a Flutter-based mobile application that allows users to
 ## **Screens Created and Their Functionalities**
 
 ### **1. Home Screen**
-- **Functionality:** Displays a search bar where users can input queries to search for books. It shows a list of book results fetched from the API based on the search query.
+- **Functionality:** Displays the latest published books where users can input queries to search for books and show them in book results fetched from the API based on the search query.
 - **Widgets Used:** `TextField`, `ListView`, `ListTile`.
 
 ### **2. Search Screen**
@@ -26,21 +26,11 @@ The Book Explorer App is a Flutter-based mobile application that allows users to
 - **Widgets Used:** `SwitchListTile`, `ListTile`, `Slider`.
 
 ## **Screenshots**
-### **Portrait Mode Screenshots**
-1. **Home Screen in Portrait Mode**
-   ![Home Screen Portrait](path/to/portrait-home-screen.png)
+### **Portrait Mode Screenshot**
+   ![Home Screen Portrait](https://drive.google.com/file/d/1sxnScDHSKF5cf0gzlDPkI86OOtVs27iY/view?usp=drive_link)
 
-2. **Search Screen in Portrait Mode**
-   ![Search Screen Portrait](path/to/portrait-search-screen.png)
-
-### **Landscape Mode Screenshots**
-1. **Home Screen in Landscape Mode**
-   ![Home Screen Landscape](path/to/landscape-home-screen.png)
-
-2. **Search Screen in Landscape Mode**
-   ![Search Screen Landscape](path/to/landscape-search-screen.png)
-
-> Note: Replace `path/to/...` with the actual file paths or URLs for your screenshots.
+### **Landscape Mode Screenshot**
+   ![Home Screen Landscape](https://drive.google.com/file/d/1PERCQSMuOl3WR_3WynGBiGL6N9xRNhHa/view?usp=sharing)
 
 ## **Challenges Faced During Development and How They Were Resolved**
 
