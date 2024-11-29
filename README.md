@@ -25,6 +25,9 @@ The Book Explorer App is a Flutter-based mobile application that allows users to
 - **Functionality:** Allows users to adjust settings such as dark mode, font size, and language. Changes are reflected across the app.
 - **Widgets Used:** `SwitchListTile`, `ListTile`, `Slider`.
 
+## **App DemoVideo**
+Link to demo Video: https://youtu.be/b5uVyXTSL0E?si=nk5yEw2WtvbsN2rp
+
 ## **Screenshots**
 ### **Portrait Mode Screenshot**
    ![Screenshot 2024-11-22 210304](https://github.com/user-attachments/assets/c858c9ce-b9a1-4c9e-a780-c7d8a358e22e)
